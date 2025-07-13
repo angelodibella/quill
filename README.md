@@ -4,7 +4,7 @@
 
 ---
 
-## About The Project
+## Introduction
 
 Arq is an interpreter for a toy quantum scripting language designed to be simple, intuitive, and educational. The project is heavily inspired by the phenomenal book ["Crafting Interpreters"](https://craftinginterpreters.com/) by Robert Nystrom and serves as a practical application of its teachings in the quantum domain.
 
