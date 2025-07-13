@@ -1,4 +1,4 @@
-# Quill 🪶
+# Arq
 
 ⚠️ **Proof-of-Concept:** This project is an active work-in-progress and is being developed as a learning exercise. Its primary goal is to serve as a proof-of-concept for exploring the fundamentals of compilers and their application to quantum computing. The features are experimental and subject to change.
 
@@ -6,7 +6,7 @@
 
 ## About The Project
 
-Quill is an interpreter for a toy quantum scripting language designed to be simple, intuitive, and educational. The project is heavily inspired by the phenomenal book ["Crafting Interpreters"](https://craftinginterpreters.com/) by Robert Nystrom and serves as a practical application of its teachings in the quantum domain.
+Arq is an interpreter for a toy quantum scripting language designed to be simple, intuitive, and educational. The project is heavily inspired by the phenomenal book ["Crafting Interpreters"](https://craftinginterpreters.com/) by Robert Nystrom and serves as a practical application of its teachings in the quantum domain.
 
 The core idea is to create a lightweight tool for quickly sketching out quantum circuits and visualizing their structure without the overhead of larger, simulation-focused frameworks. It's built with **Rust** for performance, safety, and fun!
 
@@ -40,11 +40,11 @@ To get a local copy up and running, follow these simple steps.
 
 1.  Clone the repo:
     ```sh
-    git clone https://github.com/angelodibella/quill.git
+    git clone https://github.com/angelodibella/arq.git
     ```
 2.  Navigate to the project directory:
     ```sh
-    cd quill
+    cd arq
     ```
 3.  Build the project:
     ```sh
@@ -59,9 +59,9 @@ To get a local copy up and running, follow these simple steps.
 
 ## Usage Example
 
-Quill scripts are simple and declarative. Here is an example of creating a Bell state:
+Arq scripts are simple and declarative. Here is an example of creating a Bell state:
 
-**`examples/bell_state.ql`**
+**`examples/bell_state.arq`**
 ```quill
 // A simple script to define a Bell state.
 
